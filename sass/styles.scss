@@ -1,0 +1,9 @@
+/* empty mixin required for navbars */
+@mixin form-inline {}
+
+@import "~@advanced/mosaic-styles/sass/_custom-bootstrap-lite.scss";
+@import "~@advanced/mosaic-styles/sass/lib/_mixins.scss";
+
+.navbar-carenotes {
+    @include navbarBackground(rgb(26, 89, 147), 10%, 20%);
+}
